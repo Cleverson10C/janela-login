@@ -13,9 +13,9 @@ def validar_login():
     usuario = email.get()  # Obtém o valor do campo de email
     senha_usuario = senha.get()  # Obtém o valor do campo de senha
     
-    if usuario == "cleversondospassos@gmail.com" and senha_usuario == "123456":  # Validação simples
+    if usuario == "Usuario@gmail.com" and senha_usuario == "123456":  # Validação simples
         resultado.configure(text="Login realizado com sucesso!", fg_color="green") # Exibe mensagem de sucesso
-    elif usuario != "cleversondospassos@gmail.com" or senha_usuario != "123456":  # Validação de usuário e senha diferente 
+    elif usuario != "Usuario@gmail.com" or senha_usuario != "123456":  # Validação de usuário e senha diferente 
         resultado.configure(text="E-mail ou senha incorreta.", fg_color="red")    
 
 # Criação dos campos de entrada e botões
